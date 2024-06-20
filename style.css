@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  resize: none;
+}
+body {
+  background-color: #ecf2ff;
+  width: 1440px;
+  min-height: 100dvh;
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 736px;
+  background-color: #fff;
+  border-radius: 32px;
+  box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+  display: flex;
+  flex-grow: 0;
+}
+.child-container {
+  width: 368px;
+  margin: 0 43px 0 0;
+  padding: 38px 54px 46px;
+  border-radius: 32px;
+  background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
+}
+h1 {
+  width: 125px;
+  margin: 0 70px 35px 65px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #d9d9d9;
+}
+h2 {
+  width: 83px;
+  margin: 0 91px 14px 86px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  height: 31px;
+  width: 104px;
+  flex-grow: 0;
+  margin: 30px 184px 28px 0;
+  color: #303b59;
+  font-size: 24px;
+  font-weight: bold;
+}
+.oval {
+  width: 200px;
+  margin: 35px 30px 28px;
+  padding: 55px 60px 46px 59px;
+  background-image: linear-gradient(
+    to bottom,
+    #4d21c9,
+    rgba(63, 33, 201, 0.64) 33%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 67%
+  );
+  border-radius: 50%;
+}
+.score {
+  width: 81px;
+  font-size: 72px;
+  color: #fff;
+  line-height: 1;
+  font-weight: 800;
+  text-align: center;
+}
+.of100 {
+  width: 52px;
+  margin: 4px 15px 0 14px;
+  opacity: 0.52;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cac9ff;
+}
+.description {
+  width: 260px;
+  margin: 14px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #cac9ff;
+  text-align: center;
+}
+.reaction-rectangle {
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
+  padding: 17px 16px 16px 12px;
+  border-radius: 12px;
+  background-color: #fff7f7;
+}
+.reaction-rectangle div {
+  display: flex;
+}
+.reaction {
+  width: 71px;
+  margin: 0 15px 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f55;
+}
+.r80 {
+  width: 21px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.r100 {
+  width: 43px;
+  margin: 0 0 0 8px;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.memory-rectangle {
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
+  margin: 16px 0 17px;
+  padding: 17px 16px 16px;
+  background-color: #fffcf4;
+  border-radius: 12px;
+}
+.memory-rectangle div {
+  display: flex;
+}
+.memory {
+  width: 68px;
+  margin: 0 15px 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffb21e;
+}
+.m92 {
+  width: 21px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.m100 {
+  width: 43px;
+  margin: 0 0 0 8px;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.verbal-rectangle {
+  width: 288px;
+  margin: 17px 0 15px;
+  padding: 17px 16px 16px;
+  border-radius: 12px;
+  background-color: #f3fcfa;
+  display: flex;
+  justify-content: space-between;
+}
+.verbal-rectangle div {
+  display: flex;
+}
+.verbal {
+  width: 53px;
+  margin: 0 15px 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00bb8f;
+}
+.verbal61 {
+  width: 21px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.verbal100 {
+  width: 43px;
+  margin: 0 0 0 8px;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.visual-rectangle {
+  width: 288px;
+  margin: 15px 0 0;
+  padding: 17px 16px 16px;
+  border-radius: 12px;
+  background-color: #f4f5fd;
+  display: flex;
+  justify-content: space-between;
+}
+.visual-rectangle div {
+  display: flex;
+}
+.visual {
+  width: 50px;
+  margin: 0 15px 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1125d6;
+}
+.visual73 {
+  width: 21px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+}
+.visual100 {
+  width: 43px;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303b59;
+  margin: 0 0 0 8px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 288px;
+  margin: 41px 0 0;
+  border-radius: 128px;
+  background-color: #303b59;
+}
+.button span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button:hover {
+  background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
+  cursor: pointer;
+}
